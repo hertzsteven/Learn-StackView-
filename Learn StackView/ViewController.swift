@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     lazy var stackView: UIStackView = {
         let stkV = UIStackView()
         stkV.axis = .vertical
-        stkV.spacing = 10.0
+        stkV.spacing = 8.0
         stkV.distribution = .equalSpacing
         stkV.translatesAutoresizingMaskIntoConstraints = false
         return stkV
