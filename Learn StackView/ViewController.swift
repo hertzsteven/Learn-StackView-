@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         let stkV = UIStackView()
         stkV.axis = .vertical
         stkV.spacing = 8.0
-        stkV.distribution = .equalSpacing
+        stkV.distribution = .equalCentering
         stkV.translatesAutoresizingMaskIntoConstraints = false
         return stkV
     }()
